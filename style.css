@@ -9,7 +9,7 @@ a {
 }
 
 body {
-  background: url(/img/5b3624a6f7f8b5c79615bc3ad301836d.jpg);
+  background: url(/img/background.jpg);
   background-size: cover;
   font-family: 'Bungee Inline', cursive;
   position: relative;
@@ -80,7 +80,7 @@ h1 {
 
 ul {
   list-style: none;
-  margin: 30px 0;
+  margin-top: 30px;
 }
 
 ul li a {
@@ -168,7 +168,7 @@ main {
   background-size: 400% 400%;
   background: linear-gradient(
     70deg,
-    #a166ab,
+     #a166ab, 
     #5073b8,
     #1098ad,
     #07b39b
@@ -192,4 +192,10 @@ main {
 .bn29:hover:before {
   width: 115%;
   height: 115%;
+}
+
+
+.icon2 {
+  width: 200px;
+  height: 150px;
 }
