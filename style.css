@@ -11,7 +11,7 @@ a {
 body {
   background: url(/img/5b3624a6f7f8b5c79615bc3ad301836d.jpg);
   background-size: cover;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Bungee Inline', cursive;
   position: relative;
   perspective: 500px;
 }
@@ -43,6 +43,13 @@ h1 {
   font-size: 32px;
   color: cyan;
   margin: 8px 0;
+  font-size: 30px;
+  font-family: 'Bungee Inline', cursive;
+  text-align: center;
+  text-shadow: 
+      1px -1px 0 #2f5d87,
+      2px -2px 0 #2e5a83, 
+      3px -3px 0 #2d5880;
   animation: neon 3s alternate infinite ease-in-out;
 }
 
@@ -56,7 +63,7 @@ h1 {
 }
 
 .username {
-  font-family: 'Roboto', monospace;
+  font-family: 'Permanent Marker', cursive;
   font-weight: bold;
   color: #00082F;
   opacity: 0.8;
@@ -186,4 +193,3 @@ main {
   width: 115%;
   height: 115%;
 }
-
