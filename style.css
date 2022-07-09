@@ -162,12 +162,12 @@ main {
   content: "";
   z-index: -2;
   background-size: 400% 400%;
-  background: linear-gradient(
+  background: -webkit-linear-gradient(
     70deg,
-     #a166ab, 
-    #5073b8,
-    #1098ad,
-    #07b39b
+    #a166ab, 
+   #5073b8,
+   #1098ad,
+   #07b39b
   );
 }
 
