@@ -198,7 +198,7 @@ main {
 
 .bn31 {
   height: 53px;
-  background-image: linear-gradient(70deg,  #a166ab 0%,  #5073b8 80%, #1098ad 100%);
+  background-image: linear-gradient(70deg,  #d900ff 0%,  #0055ff 60%, #00ddff 100%);
   border-radius: 40px;
   box-sizing: border-box;
   color:  white;
@@ -209,7 +209,7 @@ main {
   text-decoration: none;
   width: 100% ;
   z-index: 2;
-  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.60);
+  text-shadow: 3px 3px 10px rgba(133, 133, 133, 0.548);
   box-shadow: -10px 15px 15px rgba(0, 0, 0, 1);
 }
 
