@@ -59,18 +59,18 @@ h1 {
     filter: drop-shadow( 0 0 0 cyan);
   }
   to{
-    filter: drop-shadow(0 5px 15px cyan);
+    filter: drop-shadow(0 5px 10px cyan);
   }
 }
 
-.username {
+.descricao {
   font-family: 'Permanent Marker', cursive;
   font-weight: bold;
-  color: white;
+  color: #ffffff;
   opacity: 0.8;
   font-size: 24px;
   letter-spacing: 6px;
-  text-shadow: red -3px 0 , cyan 3px 0 ;
+  text-shadow: #a166ab -2px 0 , cyan 1px 0 ;
   transition: text-shadow 200ms;
 }
 
@@ -193,7 +193,7 @@ main {
 .icon2 {
   width: 200px;
   height: 150px;
-}
+} 
 
 
 .bn31 {
