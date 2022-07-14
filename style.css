@@ -12,7 +12,7 @@ body {
   background: rgb(100,69,106);
   background: radial-gradient(circle , rgba(100,69,106,1) 0%, rgba(0,8,47,1) 20%, rgba(0,7,40,1) 40%, rgba(1,0,11,1) 100%);
   background-size: cover;
-  font-family: 'Bungee Inline', cursive;
+  font-family: 'Bungee Inline', monospace;
   position: relative;
   perspective: 500px;
 }
@@ -33,6 +33,10 @@ img {
   margin-right: 5px;
 }
 
+.icon2 {
+  width: 200px;
+  height: 150px;
+} 
 
 img.avatar {
   border-radius: 50%;
@@ -46,7 +50,7 @@ h1 {
   color: cyan;
   margin: 8px 0;
   font-size: 30px;
-  font-family: 'Bungee Inline', cursive;
+  font-family: 'Bungee Inline', monospace;
   text-align: center;
   text-shadow: 
       1px -1px 0 #2f5d87,
@@ -65,7 +69,7 @@ h1 {
 }
 
 .descricao {
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Permanent Marker', monospace;
   font-weight: bold;
   color: #ffffff;
   opacity: 0.8;
@@ -88,7 +92,6 @@ ul li a {
   justify-content: center;
   color: white;
   text-transform: uppercase;
-  font-size: 14px;
   background: #00082F;
   margin-bottom: 16px;
   border-radius: 50px;
@@ -137,65 +140,6 @@ main {
     transform: rotateY(0deg) rotateX(10deg);
  }
 }
-.bn29 {
-  padding: 0.8em 2.5em;
-  outline: none;
-  color: white;
-  font-style: 1.2em;
-  position: relative;
-  z-index: 1;
-  cursor: pointer;
-  background: black;
-  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.60);
-  box-shadow: -10px 15px 15px rgba(0, 0, 0, 1);
-}
-
-.bn29:before,
-.bn29:after {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  border-radius: 10em;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  width: 105%;
-  height: 105%;
-  content: "";
-  z-index: -2;
-  background-size: 400% 400%;
-  background: -webkit-linear-gradient(
-    70deg,
-   #a166ab, 
-   #5073b8,
-   #1098ad
-  );
-}
-
-.bn29:before {
-  -webkit-filter: blur(7px);
-  filter: blur(7px);
-  -webkit-transition: all 0.25s ease;
-  transition: all 0.25s ease;
-  -webkit-animation: pulse 10s infinite ease;
-  animation: pulse 10s infinite ease;
-}
-
-.bn29:after {
-  -webkit-filter: blur(0.3px);
-  filter: blur(0.3px);
-}
-
-.bn29:hover:before {
-  width: 115%;
-  height: 115%;
-}
-
-
-.icon2 {
-  width: 200px;
-  height: 150px;
-} 
-
 
 .bn31 {
   height: 53px;
