@@ -47,7 +47,7 @@ img.avatar {
 
 h1 {
   font-size: 32px;
-  color: cyan;
+  color: rgb(62, 255, 255);
   margin: 8px 0;
   font-size: 30px;
   font-family: 'Bungee Inline', monospace;
@@ -61,10 +61,10 @@ h1 {
 
 @keyframes neon {
   from {
-    filter: drop-shadow( 0 0 0 cyan);
+    filter: drop-shadow( 0 0 0 rgb(187, 255, 255));
   }
   to{
-    filter: drop-shadow(0 5px 10px cyan);
+    filter: drop-shadow(0 5px 10px rgb(151, 250, 250));
   }
 }
 
